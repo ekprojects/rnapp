@@ -1,0 +1,1 @@
+keytool -genkey -v -keystore rnapp-key.keystore -alias rnapp-key-alias -keyalg RSA -keysize 2048 -validity 10000

@@ -1,3 +1,4 @@
 <resources>
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">sku5bRVOtZwAOmEfPIkwS8JmQdAZa6ec3a9d-e115-4b31-bf91-5a3c6fdab1df</string>
     <string name="app_name">rnapp1</string>
 </resources>

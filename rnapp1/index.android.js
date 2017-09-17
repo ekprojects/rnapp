@@ -11,13 +11,17 @@ import {
   Text,
   View
 } from 'react-native';
+import CodePush from 'react-native-code-push';
 
 export default class rnapp1 extends Component {
+  componentDidMount(){
+    CodePush.sync({ updateDialog: true, installMode: CodePush.InstallMode.IMMEDIATE });    
+  }
   render() {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          Welcome to React Native! this is my first react app
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.android.js

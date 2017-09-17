@@ -13,9 +13,10 @@ import {
 } from 'react-native';
 import CodePush from 'react-native-code-push';
 
+@codePush
 export default class rnapp1 extends Component {
   componentDidMount(){
-    CodePush.sync({ updateDialog: true, installMode: CodePush.InstallMode.IMMEDIATE });    
+    //CodePush.sync({ updateDialog: true, installMode: CodePush.InstallMode.IMMEDIATE });    
   }
   render() {
     return (

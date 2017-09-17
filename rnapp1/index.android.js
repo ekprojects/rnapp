@@ -21,7 +21,11 @@ export default class rnapp1 extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
+<<<<<<< HEAD
           Welcome to React Native! this is my first react app
+=======
+          Welcome to React Native! this is my first react native app
+>>>>>>> cd9fecb348af8b67be727afb55b5e1c63303cbc3
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.android.js
